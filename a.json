@@ -1,0 +1,161 @@
+{
+  "nir": null,
+  "asn_registry": "lacnic",
+  "asn": "22884",
+  "asn_cidr": "189.203.189.0/24",
+  "asn_country_code": "MX",
+  "asn_date": "2009-09-14",
+  "asn_description": "TOTAL PLAY TELECOMUNICACIONES SA DE CV, MX",
+  "query": "189.203.189.133",
+  "network": {
+    "handle": "189.203.0.0/16",
+    "status": null,
+    "remarks": [{ "title": "remarks", "description": "", "links": null }],
+    "notices": [
+      {
+        "title": "Terms and Conditions",
+        "description": "This is the LACNIC RDAP service. Objects are in RDAP format.",
+        "links": [
+          "http://www.lacnic.net/web/lacnic/registration-data-access-protocol"
+        ]
+      }
+    ],
+    "links": ["https://rdap.lacnic.net/rdap/ip/189.203.0.0/16"],
+    "events": [
+      {
+        "action": "registration",
+        "timestamp": "2009-09-14T15:52:53Z",
+        "actor": null
+      },
+      {
+        "action": "last changed",
+        "timestamp": "2015-05-14T19:08:50Z",
+        "actor": null
+      }
+    ],
+    "raw": null,
+    "start_address": "189.203.0.0",
+    "end_address": "189.203.255.255",
+    "cidr": "189.203.0.0/16",
+    "ip_version": "v4",
+    "type": "allocated",
+    "name": null,
+    "country": null,
+    "parent_handle": null
+  },
+  "entities": ["MX-TPTE-LACNIC", "DSC34", "CIT12"],
+  "objects": {
+    "MX-TPTE-LACNIC": {
+      "handle": "MX-TPTE-LACNIC",
+      "status": null,
+      "remarks": null,
+      "notices": null,
+      "links": ["https://rdap.lacnic.net/rdap/entity/MX-TPTE-LACNIC"],
+      "events": [
+        {
+          "action": "registration",
+          "timestamp": "2015-05-13T14:16:13Z",
+          "actor": null
+        },
+        {
+          "action": "last changed",
+          "timestamp": "2021-02-10T23:34:02Z",
+          "actor": null
+        }
+      ],
+      "raw": null,
+      "roles": ["registrant"],
+      "contact": {
+        "name": "TOTAL PLAY TELECOMUNICACIONES SA DE CV",
+        "kind": "org",
+        "address": [
+          {
+            "type": null,
+            "value": "FUENTES DEL PEDREGAL\nPERIFERICO SUR\nTLALPAN\n\n14140\nMX"
+          }
+        ],
+        "phone": [{ "type": "voice", "value": "52  5585825000" }],
+        "email": null,
+        "role": null,
+        "title": null
+      },
+      "events_actor": null,
+      "entities": null
+    },
+    "DSC34": {
+      "handle": "DSC34",
+      "status": null,
+      "remarks": null,
+      "notices": null,
+      "links": ["https://rdap.lacnic.net/rdap/entity/DSC34"],
+      "events": [
+        {
+          "action": "registration",
+          "timestamp": "2021-02-09T18:52:24Z",
+          "actor": null
+        },
+        {
+          "action": "last changed",
+          "timestamp": "2021-02-16T15:44:01Z",
+          "actor": null
+        }
+      ],
+      "raw": null,
+      "roles": ["administrative"],
+      "contact": {
+        "name": "DSI CyAAL",
+        "kind": "individual",
+        "address": [
+          {
+            "type": null,
+            "value": "La Joya\nInsurgentes Sur\nTlalpan\n\n14000\nMX"
+          }
+        ],
+        "phone": [{ "type": "voice", "value": "52  5517207000#72779" }],
+        "email": [{ "type": null, "value": "lacnic@gruposalinas.com.mx" }],
+        "role": null,
+        "title": null
+      },
+      "events_actor": null,
+      "entities": null
+    },
+    "CIT12": {
+      "handle": "CIT12",
+      "status": null,
+      "remarks": null,
+      "notices": null,
+      "links": ["https://rdap.lacnic.net/rdap/entity/CIT12"],
+      "events": [
+        {
+          "action": "registration",
+          "timestamp": "2015-05-13T13:54:12Z",
+          "actor": null
+        },
+        {
+          "action": "last changed",
+          "timestamp": "2021-07-20T17:22:10Z",
+          "actor": null
+        }
+      ],
+      "raw": null,
+      "roles": ["technical", "abuse"],
+      "contact": {
+        "name": "Christian Ivan Dominguez Trujillo",
+        "kind": "individual",
+        "address": [
+          {
+            "type": null,
+            "value": "Col.La Otra Banda\nAv. San Jeronimo\nMexico\n\n04519\nMX"
+          }
+        ],
+        "phone": [{ "type": "voice", "value": "52  5551094400#5331" }],
+        "email": [{ "type": null, "value": "cdominguez@totalplay.com.mx" }],
+        "role": null,
+        "title": null
+      },
+      "events_actor": null,
+      "entities": null
+    }
+  },
+  "raw": null
+}
